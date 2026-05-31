@@ -1,0 +1,11 @@
+@import url('https://googleapis.com');
+
+/* Apply to the entire website */
+body {
+  font-family: 'Fredoka One', sans-serif;
+}
+
+/* Or apply specifically to headings */
+h1, h2, h3 {
+  font-family: 'Fredoka One', sans-serif;
+}
