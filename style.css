@@ -6,3 +6,46 @@ body {
   color: #000;
   line-height: 40px;
 }
+    body {
+      overflow-x: hidden;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+
+    .marquee-container {
+      overflow: hidden;
+      white-space: nowrap;
+      background: #111;
+      color: #fff;
+      padding: 15px 0;
+      display: flex;
+    }
+
+    
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: scroll-left 15s linear infinite;
+    }
+
+
+    .marquee-content {
+      display: flex;
+      gap: 2rem;
+      padding-right: 2rem; 
+    }
+
+    .marquee-container:hover .marquee-track {
+      animation-play-state: paused;
+    }
+
+  
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
