@@ -49,12 +49,3 @@ body {
         transform: translateX(-50%);
       }
     }
-
-.page-body {
-  background: #000;
-  color: #FFF;
-  margin: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
