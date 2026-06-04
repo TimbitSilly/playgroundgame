@@ -12,6 +12,22 @@ body {
       font-family: sans-serif;
     }
 
+.sway-text {
+  display: inline-block; /* Required for transform to work */
+  animation: sway 3s ease-in-out infinite;
+  transform-origin: bottom center; /* Pivot point of the sway */
+}
+
+@keyframes sway {
+  0%, 100% {
+    transform: rotate(-5deg); /* Tilt left */
+  }
+  50% {
+    transform: rotate(5deg); /* Tilt right */
+  }
+}
+
+
 
     .marquee-container {
       overflow: hidden;
