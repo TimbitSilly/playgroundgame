@@ -20,10 +20,10 @@ body {
 
 @keyframes sway {
   0%, 100% {
-    transform: rotate(-5deg); /* Tilt left */
+    transform: rotate(-3deg); /* Tilt left */
   }
   50% {
-    transform: rotate(5deg); /* Tilt right */
+    transform: rotate(3deg); /* Tilt right */
   }
 }
 
